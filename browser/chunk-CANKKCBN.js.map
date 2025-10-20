@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/controllers/credito.pago.service.ts"],
+  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { CreditoPago } from '../models/credito.pago.model';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class CreditoPagoService extends SuperService<CreditoPago> {\n  protected override model: string =\"creditos_pagos\";\n  protected override columns: (keyof CreditoPago)[] =[\n    'credito_id',\n    'fecha',\n    'pago_fijo',\n    'abono_a_capital',\n    'interes',\n    'iva',\n    'usuario_id',\n    'deleted_at',\n  ];\n\n  constructor(injector: Injector){\n    super(injector)\n  }\n}"],
+  "mappings": ";;;;;;;;;;;;AAOM,IAAO,sBAAP,MAAO,4BAA2B,aAAyB;EAa/D,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAbG,SAAA,QAAe;AACf,SAAA,UAAgC;MACjD;MACA;MACA;MACA;MACA;MACA;MACA;MACA;;EAKF;;;mCAfW,qBAAkB,mBAAA,QAAA,CAAA;AAAA;uFAAlB,qBAAkB,SAAlB,oBAAkB,WAAA,YAFjB,MAAK,CAAA;AAEb,IAAO,qBAAP;;sEAAO,oBAAkB,CAAA;UAH9B;WAAW;MACV,YAAY;KACb;;;",
+  "names": []
+}

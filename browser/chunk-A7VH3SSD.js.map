@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/controllers/sesion.service.ts"],
+  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { Sesion } from '../models/sesion.model';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class SesionService extends SuperService<Sesion> {\n  protected override model: string =\"sesiones\";\n  protected override columns: (keyof Sesion)[] = [\n    'sesion',\n    'tipo_sesion',\n    'fecha',\n    'usuario_id'\n  ];\n  constructor(injector: Injector){\n    super(injector)\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;;;AAOM,IAAO,iBAAP,MAAO,uBAAsB,aAAoB;EAQrD,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AARG,SAAA,QAAe;AACf,SAAA,UAA4B;MAC7C;MACA;MACA;MACA;;EAIF;;;mCAVW,gBAAa,mBAAA,QAAA,CAAA;AAAA;kFAAb,gBAAa,SAAb,eAAa,WAAA,YAFZ,MAAK,CAAA;AAEb,IAAO,gBAAP;;sEAAO,eAAa,CAAA;UAHzB;WAAW;MACV,YAAY;KACb;;;",
+  "names": []
+}

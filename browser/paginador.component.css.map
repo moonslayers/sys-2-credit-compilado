@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/paginador/paginador.component.css"],
+  "sourcesContent": [".page-item{\n    cursor:pointer;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,UAAO;AACX;",
+  "names": []
+}

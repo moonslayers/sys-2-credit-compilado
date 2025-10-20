@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/controllers/sucursal.service.ts"],
+  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { Sucursal } from '../models/sucursal.model';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class SucursalService extends SuperService<Sucursal> {\n  protected override model: string =\"sucursales\";\n  protected override columns: (keyof Sucursal)[] = [\n    'nombre',\n    'direccion',\n    'colonia',\n    'ciudad_id',\n    'cp',\n  ];\n\n  constructor(injector: Injector){\n    super(injector)\n  }\n}"],
+  "mappings": ";;;;;;;;;;;;AAOM,IAAO,mBAAP,MAAO,yBAAwB,aAAsB;EAUzD,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAVG,SAAA,QAAe;AACf,SAAA,UAA8B;MAC/C;MACA;MACA;MACA;MACA;;EAKF;;;mCAZW,kBAAe,mBAAA,QAAA,CAAA;AAAA;oFAAf,kBAAe,SAAf,iBAAe,WAAA,YAFd,MAAK,CAAA;AAEb,IAAO,kBAAP;;sEAAO,iBAAe,CAAA;UAH3B;WAAW;MACV,YAAY;KACb;;;",
+  "names": []
+}

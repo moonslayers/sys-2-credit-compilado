@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/catalogos/catalogos.component.ts", "src/app/catalogos/catalogos.component.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\nimport { RouterOutlet } from '@angular/router';\nimport { SidebarOffcanvasComponent } from \"../shared/sidebar-offcanvas/sidebar-offcanvas.component\";\n\n@Component({\n    selector: 'app-catalogos',\n    imports: [\n        RouterOutlet,\n        SidebarOffcanvasComponent\n    ],\n    templateUrl: './catalogos.component.html',\n    styleUrl: './catalogos.component.css'\n})\nexport class CatalogosComponent {\n\n}\n", "<app-sidebar-offcanvas>\n    <router-outlet></router-outlet>\n</app-sidebar-offcanvas>"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAaM,IAAO,sBAAP,MAAO,oBAAkB;;;mCAAlB,qBAAkB;AAAA;oFAAlB,qBAAkB,WAAA,CAAA,CAAA,eAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,4BAAA,IAAA,KAAA;AAAA,MAAA,KAAA,GAAA;ACb/B,IAAA,yBAAA,GAAA,uBAAA;AACI,IAAA,oBAAA,GAAA,eAAA;AACJ,IAAA,uBAAA;;;EDKQ;EACA;AAAyB,GAAA,eAAA,EAAA,CAAA;AAK3B,IAAO,qBAAP;;sEAAO,oBAAkB,CAAA;UAT9B;uBACa,iBAAe,SAChB;MACL;MACA;OACH,UAAA,yFAAA,CAAA;;;;6EAIQ,oBAAkB,EAAA,WAAA,sBAAA,UAAA,4CAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

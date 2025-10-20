@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/configuracion/configuracion.component.ts", "src/app/configuracion/configuracion.component.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\nimport { RouterOutlet } from '@angular/router';\nimport { SidebarOffcanvasComponent } from \"../shared/sidebar-offcanvas/sidebar-offcanvas.component\";\n\n@Component({\n    selector: 'app-configuracion',\n    imports: [\n        RouterOutlet,\n        SidebarOffcanvasComponent\n    ],\n    templateUrl: './configuracion.component.html',\n    styleUrl: './configuracion.component.css'\n})\nexport class ConfiguracionComponent {\n\n}\n", "<app-sidebar-offcanvas>\n    <router-outlet></router-outlet>\n</app-sidebar-offcanvas>"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAaM,IAAO,0BAAP,MAAO,wBAAsB;;;mCAAtB,yBAAsB;AAAA;wFAAtB,yBAAsB,WAAA,CAAA,CAAA,mBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,gCAAA,IAAA,KAAA;AAAA,MAAA,KAAA,GAAA;ACbnC,IAAA,yBAAA,GAAA,uBAAA;AACI,IAAA,oBAAA,GAAA,eAAA;AACJ,IAAA,uBAAA;;;EDKQ;EACA;AAAyB,GAAA,eAAA,EAAA,CAAA;AAK3B,IAAO,yBAAP;;sEAAO,wBAAsB,CAAA;UATlC;uBACa,qBAAmB,SACpB;MACL;MACA;OACH,UAAA,yFAAA,CAAA;;;;6EAIQ,wBAAsB,EAAA,WAAA,0BAAA,UAAA,oDAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

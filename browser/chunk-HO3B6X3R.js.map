@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/controllers/referencia.personal.service.ts"],
+  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { ReferenciaPersonal } from '../models/referencia.personal.model';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class ReferenciaPersonalService extends SuperService<ReferenciaPersonal> {\n  protected override model: string =\"referencias_personales\";\n  protected override columns: (keyof ReferenciaPersonal)[] = [\n    'usuario_id',\n    'nombre',\n    'parentezco',\n    'telefono',\n    'domicilio'\n  ];\n\n  constructor(injector: Injector){\n    super(injector)\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;;;AAOM,IAAO,6BAAP,MAAO,mCAAkC,aAAgC;EAU7E,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAVG,SAAA,QAAe;AACf,SAAA,UAAwC;MACzD;MACA;MACA;MACA;MACA;;EAKF;;;mCAZW,4BAAyB,mBAAA,QAAA,CAAA;AAAA;8FAAzB,4BAAyB,SAAzB,2BAAyB,WAAA,YAFxB,MAAK,CAAA;AAEb,IAAO,4BAAP;;sEAAO,2BAAyB,CAAA;UAHrC;WAAW;MACV,YAAY;KACb;;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/informes/dashboard-historico/components/configuraciones-tablas-preview/configuraciones-tablas-preview.component.css"],
+  "sourcesContent": [".configuraciones-tablas-preview {\n  /* Contenedor principal para las configuraciones de tablas */\n}\n\n.card {\n  transition: all 0.2s ease-in-out;\n}\n\n.card:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1) !important;\n}\n\n.card-header {\n  border-bottom: 1px solid #dee2e6;\n  font-weight: 600;\n}\n\n/* Estilos para las alertas */\n.alert {\n  border-radius: 0.375rem;\n  border: none;\n}\n\n/* Animaciones suaves */\n.card, .alert {\n  animation: fadeIn 0.3s ease-in-out;\n}\n\n@keyframes fadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n/* Responsive adjustments */\n@media (max-width: 768px) {\n  .card-header {\n    font-size: 0.9rem;\n  }\n}"],
+  "mappings": ";AAAA,CAAC;AAED;AAEA,CAAC;AACC,cAAY,IAAI,KAAK;AACvB;AAEA,CAJC,IAII;AACH,aAAW,WAAW;AACtB,cAAY,EAAE,QAAQ,OAAO,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AAC7C;AAEA,CAAC;AACC,iBAAe,IAAI,MAAM;AACzB,eAAa;AACf;AAGA,CAAC;AACC,iBAAe;AACf,UAAQ;AACV;AAGA,CArBC;AAqBM,CANN;AAOC,aAAW,OAAO,KAAK;AACzB;AAEA,WAHa;AAIX;AACE,aAAS;AACT,eAAW,WAAW;AACxB;AACA;AACE,aAAS;AACT,eAAW,WAAW;AACxB;AACF;AAGA,OAAO,CAAC,SAAS,EAAE;AACjB,GA7BD;AA8BG,eAAW;AACb;AACF;",
+  "names": []
+}

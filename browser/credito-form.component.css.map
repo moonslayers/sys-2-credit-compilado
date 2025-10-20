@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/creditos/credito-form/credito-form.component.css"],
+  "sourcesContent": [".credito-form{\n    max-height: 100vh;\n    width: 100%;\n    overflow: auto;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,cAAY;AACZ,SAAO;AACP,YAAU;AACd;",
+  "names": []
+}

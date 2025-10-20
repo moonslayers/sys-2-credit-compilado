@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/file-input/file-input.component.css"],
+  "sourcesContent": [".img-fluid {\n    max-height: 20rem;\n    max-width: 20rem;\n    transition: all ease-in-out 0.25s;\n}\n\n.img-fluid:hover {\n    max-height: 30rem;\n    max-width: 30rem;\n    transition: all ease-in-out 0.25s;\n}\n.pdf-container{\n    width: 100%;\n    height: 30rem;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,cAAY;AACZ,aAAW;AACX,cAAY,IAAI,YAAY;AAChC;AAEA,CANC,SAMS;AACN,cAAY;AACZ,aAAW;AACX,cAAY,IAAI,YAAY;AAChC;AACA,CAAC;AACG,SAAO;AACP,UAAQ;AACZ;",
+  "names": []
+}

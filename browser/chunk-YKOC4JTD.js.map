@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/clientes/main/cliente-perfil/cliente-perfil.routes.ts"],
+  "sourcesContent": ["import { Routes } from '@angular/router';\n\nexport const CLIENTE_PERFIL_ROUTES: Routes = [\n  {\n    path: '',\n    children: [\n      {\n        path: 'change-pass',\n        loadComponent: () =>\n          import('./change-pass/change-pass.component').then(m => m.ChangePasswordComponent),\n      },\n      {\n        path: 'datos-personales',\n        loadComponent: () =>\n          import('./datos-personales/datos-personales.component').then(m => m.DatosPersonalesComponent),\n      },\n      {\n        path: 'datos-fiscales',\n        loadComponent: () =>\n          import('./datos-fiscales/datos-fiscales.component').then(m => m.DatosFiscalesComponent),\n      },\n      {\n        path: 'datos-negocio',\n        loadComponent: () =>\n          import('./datos-negocio/datos-negocio.component').then(m => m.DatosNegocioComponent),\n      },\n      {\n        path: '',\n        redirectTo: 'change-pass',\n        pathMatch: 'full',\n      },\n    ],\n  },\n];\n"],
+  "mappings": ";;;AAEO,IAAM,wBAAgC;EAC3C;IACE,MAAM;IACN,UAAU;MACR;QACE,MAAM;QACN,eAAe,MACb,OAAO,qBAAqC,EAAE,KAAK,OAAK,EAAE,uBAAuB;;MAErF;QACE,MAAM;QACN,eAAe,MACb,OAAO,qBAA+C,EAAE,KAAK,OAAK,EAAE,wBAAwB;;MAEhG;QACE,MAAM;QACN,eAAe,MACb,OAAO,qBAA2C,EAAE,KAAK,OAAK,EAAE,sBAAsB;;MAE1F;QACE,MAAM;QACN,eAAe,MACb,OAAO,qBAAyC,EAAE,KAAK,OAAK,EAAE,qBAAqB;;MAEvF;QACE,MAAM;QACN,YAAY;QACZ,WAAW;;;;;",
+  "names": []
+}

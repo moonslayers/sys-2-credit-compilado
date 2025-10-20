@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/informes/informe-tabla-dinamica-local/informe-tabla-dinamica-local.component.css"],
+  "sourcesContent": [".table-viewport {\n    /* Altura fija requerida */\n    width: 100%;\n    overflow-x: auto;\n    overflow-y: hidden;\n}\n.checkbox-row{\n    width: 40px;\n    height: auto;\n}\n\n.selected{\n    background-color: rgb(229, 194, 153);\n}"],
+  "mappings": ";AAAA,CAAC;AAEG,SAAO;AACP,cAAY;AACZ,cAAY;AAChB;AACA,CAAC;AACG,SAAO;AACP,UAAQ;AACZ;AAEA,CAAC;AACG,oBAAkB,IAAI,GAAG,EAAE,GAAG,EAAE;AACpC;",
+  "names": []
+}

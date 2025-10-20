@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/select-datos-personales/select-datos-personales.component.css"],
+  "sourcesContent": [".container-fluid{\n    min-height: 30rem;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,cAAY;AAChB;",
+  "names": []
+}

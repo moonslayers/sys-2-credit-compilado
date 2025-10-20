@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/creditos/credito-form/form-datos-bancarios/form-datos-bancarios.component.css"],
+  "sourcesContent": [".list-group {\n    position: absolute;\n    z-index: 1000;\n    width: calc(100% - 30px);\n    /* Ajusta al ancho del input */\n    max-height: 200px;\n    overflow-y: auto;\n    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);\n}\n\n.list-group-item {\n    cursor: pointer;\n    border-left: none;\n    border-right: none;\n}\n\n.list-group-item:hover {\n    background-color: #f8f9fa;\n}\n\n.container {\n    min-height: 25rem;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,YAAU;AACV,WAAS;AACT,SAAO,KAAK,KAAK,EAAE;AAEnB,cAAY;AACZ,cAAY;AACZ,cAAY,EAAE,IAAI,KAAK,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AACzC;AAEA,CAAC;AACG,UAAQ;AACR,eAAa;AACb,gBAAc;AAClB;AAEA,CANC,eAMe;AACZ,oBAAkB;AACtB;AAEA,CAAC;AACG,cAAY;AAChB;",
+  "names": []
+}

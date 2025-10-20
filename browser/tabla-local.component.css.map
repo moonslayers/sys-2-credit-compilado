@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/tabla-local/tabla-local.component.css"],
+  "sourcesContent": [".sticky-right{\n    position: sticky;\n    right: 0; \n    background-color: transparent; /* Fondo transparente */\n}\n.no-expanded{\n    max-height: 40rem;\n    overflow-y: auto;\n}\n\n.expanded{\n    max-height: 80vh;\n    overflow-y: auto;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,YAAU;AACV,SAAO;AACP,oBAAkB;AACtB;AACA,CAAC;AACG,cAAY;AACZ,cAAY;AAChB;AAEA,CAAC;AACG,cAAY;AACZ,cAAY;AAChB;",
+  "names": []
+}

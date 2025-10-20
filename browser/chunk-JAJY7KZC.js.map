@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/controllers/solicitud.apoyo.modalidad.service.ts"],
+  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { SolicitudApoyoModalidad } from '../models/solicitud.apoyo.modalidad';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class SolicitudApoyoModalidadService extends SuperService<SolicitudApoyoModalidad> {\n  protected override model: string = \"solicitudes_apoyos_modalidades\";\n  protected override columns: (keyof SolicitudApoyoModalidad)[] = [\n    'solicitudes_apoyo_id',\n    'estado',\n    'sesion_id',\n    'modalidades_ministracion_id',\n    'carta_instruccion_url',\n    'usuario_id',\n  ]\n\n  constructor(injector: Injector) {\n    super(injector)\n  }\n}"],
+  "mappings": ";;;;;;;;;;;;AAOM,IAAO,kCAAP,MAAO,wCAAuC,aAAqC;EAWvF,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAXG,SAAA,QAAgB;AAChB,SAAA,UAA6C;MAC9D;MACA;MACA;MACA;MACA;MACA;;EAKF;;;mCAbW,iCAA8B,mBAAA,QAAA,CAAA;AAAA;mGAA9B,iCAA8B,SAA9B,gCAA8B,WAAA,YAF7B,MAAK,CAAA;AAEb,IAAO,iCAAP;;sEAAO,gCAA8B,CAAA;UAH1C;WAAW;MACV,YAAY;KACb;;;",
+  "names": []
+}

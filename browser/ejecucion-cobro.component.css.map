@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/cobranza/ejecucion-cobro/ejecucion-cobro.component.css"],
+  "sourcesContent": [".hover-shadow-sm {\n    transition: all 0.2s ease;\n\n    &:hover {\n        transform: translateY(-1px);\n        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n    }\n}\n\n.animate-fade-in {\n    animation: fadeIn 0.3s ease-in;\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n    }\n\n    to {\n        opacity: 1;\n    }\n}"],
+  "mappings": ";AAAA,CAAC;AACG,cAAY,IAAI,KAAK;AAMzB;AAPA,CAAC,eAGI;AACG,aAAW,WAAW;AACtB,cAAY,EAAE,IAAI,KAAK,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AACzC;AAGJ,CAAC;AACG,aAAW,OAAO,KAAK;AAC3B;AAEA,WAHe;AAIX;AACI,aAAS;AACb;AAEA;AACI,aAAS;AACb;AACJ;",
+  "names": []
+}

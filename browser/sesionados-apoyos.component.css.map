@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/informes/sesionados/sesionados-apoyos/sesionados-apoyos.component.css"],
+  "sourcesContent": [".cotizacion-info {\n    width: 10rem;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,SAAO;AACP,eAAa;AACb,YAAU;AACV,iBAAe;AACnB;",
+  "names": []
+}

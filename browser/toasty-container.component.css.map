@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pagos/pagos-facturacion/toasty-notification-component/containers/toasty-container/toasty-container.component.css"],
+  "sourcesContent": [".toast-wrapper {\n  position: fixed;\n  bottom: 1rem;\n  right: 1rem;\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n  align-items: flex-end;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,YAAU;AACV,UAAQ;AACR,SAAO;AACP,WAAS;AACT,kBAAgB;AAChB,OAAK;AACL,eAAa;AACf;",
+  "names": []
+}

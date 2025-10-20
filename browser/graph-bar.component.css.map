@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/bar-chart/graph-bar/graph-bar.component.css"],
+  "sourcesContent": [".bar-container {\n  display: flex;\n  align-items: center;\n  margin-bottom: 0.75rem;\n}\n\n.label {\n  width: 100px;\n  font-weight: 500;\n  flex-shrink: 0;\n}\n.label-placeholder {\n  width: 20px;\n  font-weight: 500;\n  flex-shrink: 0;\n}\n\n.bar-wrapper {\n  display: flex;\n  align-items: center;\n  width: 100%;\n  position: relative;\n}\n\n.bar {\n  height: 20px;\n  border-radius: 0.25rem;\n  transition: width 0.3s ease;\n}\n\n.value {\n  margin-left: 0.5rem;\n  font-weight: bold;\n  color: #333;\n}"],
+  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,eAAa;AACb,iBAAe;AACjB;AAEA,CAAC;AACC,SAAO;AACP,eAAa;AACb,eAAa;AACf;AACA,CAAC;AACC,SAAO;AACP,eAAa;AACb,eAAa;AACf;AAEA,CAAC;AACC,WAAS;AACT,eAAa;AACb,SAAO;AACP,YAAU;AACZ;AAEA,CAAC;AACC,UAAQ;AACR,iBAAe;AACf,cAAY,MAAM,KAAK;AACzB;AAEA,CAAC;AACC,eAAa;AACb,eAAa;AACb,SAAO;AACT;",
+  "names": []
+}

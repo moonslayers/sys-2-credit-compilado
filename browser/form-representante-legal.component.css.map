@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/creditos/credito-form/credito-persona-moral/form-representante-legal/form-representante-legal.component.css"],
+  "sourcesContent": [".container{\n    min-height: 20rem;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,cAAY;AAChB;",
+  "names": []
+}

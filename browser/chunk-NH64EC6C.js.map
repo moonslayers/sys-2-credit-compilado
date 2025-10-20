@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app/controllers/datos-fiscales.service.ts"],
+  "sourcesContent": ["import { Injectable, Injector, inject } from '@angular/core';\nimport { SuperService } from '../../controllers/super.service';\nimport { DatosFiscales } from '../../models/datos.fiscales.model';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class DatosFiscalesService extends SuperService<DatosFiscales> {\n  protected override model = 'datos_fiscales'\n\n  constructor(\n    injector: Injector\n  ) {\n    super(injector)\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;;;AAOM,IAAO,wBAAP,MAAO,8BAA6B,aAA2B;EAGnE,YACE,UAAkB;AAElB,UAAM,QAAQ;AALG,SAAA,QAAQ;EAM3B;;;mCAPW,uBAAoB,mBAAA,QAAA,CAAA;AAAA;yFAApB,uBAAoB,SAApB,sBAAoB,WAAA,YAFnB,OAAM,CAAA;AAEd,IAAO,uBAAP;;sEAAO,sBAAoB,CAAA;UAHhC;WAAW;MACV,YAAY;KACb;;;",
+  "names": []
+}

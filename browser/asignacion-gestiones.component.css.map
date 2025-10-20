@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/cobranza/asignacion-gestiones/asignacion-gestiones.component.css"],
+  "sourcesContent": [".list-group-item {\n  cursor: pointer;\n  transition: background-color 0.1s;\n}\n.list-group-item:hover {\n  background-color: #f8f9fa;\n}"],
+  "mappings": ";AAAA,CAAC;AACC,UAAQ;AACR,cAAY,iBAAiB;AAC/B;AACA,CAJC,eAIe;AACd,oBAAkB;AACpB;",
+  "names": []
+}

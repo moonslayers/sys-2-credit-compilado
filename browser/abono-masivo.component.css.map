@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pagos/carga-masiva/abono-masivo/abono-masivo.component.css"],
+  "sourcesContent": [".bg-purple {\n  background-color: #6f42c1 !important;\n}\n\n.text-purple {\n  color: #6f42c1 !important;\n}\n\n.border-purple {\n  border-color: #6f42c1 !important;\n}"],
+  "mappings": ";AAAA,CAAC;AACC,oBAAkB;AACpB;AAEA,CAAC;AACC,SAAO;AACT;AAEA,CAAC;AACC,gBAAc;AAChB;",
+  "names": []
+}
