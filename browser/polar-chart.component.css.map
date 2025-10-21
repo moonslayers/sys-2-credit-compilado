@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["angular:styles/component:css;8a5c8c019f7a6027aabe7ba3cf22e03eed50d06b16675a446c589c67dad925d4;/home/junior/Projects/s2c/sys-2-credit-frontend/src/app/shared/statistics/polar-chart/polar-chart.component.ts"],
-  "sourcesContent": ["\n    .chart-container {\n      position: relative;\n      width: 100%;\n      height: 100%;\n    }\n    canvas {\n      width: 100% ;\n      height: 100% ;\n    }\n  "],
-  "mappings": ";AACI,CAAC;AACC,YAAU;AACV,SAAO;AACP,UAAQ;AACV;AACA;AACE,SAAO;AACP,UAAQ;AACV;",
-  "names": []
-}

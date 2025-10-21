@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/controllers/etapa.judicial.service.ts"],
-  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { EtapaJudicial } from '../models/etapa.judicial';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class EtapaJudicialService extends SuperService<EtapaJudicial> {\n  protected override model: string =\"etapas_judiciales\";\n  protected override columns: (keyof EtapaJudicial)[] = [\n    'nombre',\n    'proceso_judicial_id',\n    'usuario_id',\n  ];\n\n  constructor(injector: Injector){\n    super(injector)\n  }\n}"],
-  "mappings": ";;;;;;;;;;;;AAOM,IAAO,wBAAP,MAAO,8BAA6B,aAA2B;EAQnE,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AARG,SAAA,QAAe;AACf,SAAA,UAAmC;MACpD;MACA;MACA;;EAKF;;;mCAVW,uBAAoB,mBAAA,QAAA,CAAA;AAAA;yFAApB,uBAAoB,SAApB,sBAAoB,WAAA,YAFnB,MAAK,CAAA;AAEb,IAAO,uBAAP;;sEAAO,sBAAoB,CAAA;UAHhC;WAAW;MACV,YAAY;KACb;;;",
-  "names": []
-}

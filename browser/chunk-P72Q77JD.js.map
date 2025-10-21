@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/controllers/usuario.service.ts"],
-  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { Usuario } from '../models/usuario.model';\nimport { firstValueFrom } from 'rxjs';\n\n@Injectable({\n  providedIn: 'any',\n})\nexport class UsuarioService extends SuperService<Usuario> {\n  protected override model = 'usuarios';\n\n  protected override columns: (keyof Usuario)[] = [\n    'email',\n    'password',\n    'nombre',\n    'apellido_paterno',\n    'apellido_materno',\n  ];\n\n  constructor(injector: Injector) {\n    super(injector);\n  }\n\n  public async usuariosEjecutivosCobranza(){\n    return (await firstValueFrom(this.api.get<Usuario[]>('api/usuarios_ejecutivos', {}, false))).data??[]\n  }\n}\n"],
-  "mappings": ";;;;;;;;;;;;;;;;AAQM,IAAO,kBAAP,MAAO,wBAAuB,aAAqB;EAWvD,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAXG,SAAA,QAAQ;AAER,SAAA,UAA6B;MAC9C;MACA;MACA;MACA;MACA;;EAKF;EAEa,6BAA0B;;AACrC,cAAQ,MAAM,eAAe,KAAK,IAAI,IAAe,2BAA2B,CAAA,GAAI,KAAK,CAAC,GAAG,QAAM,CAAA;IACrG;;;;mCAjBW,iBAAc,mBAAA,QAAA,CAAA;AAAA;mFAAd,iBAAc,SAAd,gBAAc,WAAA,YAFb,MAAK,CAAA;AAEb,IAAO,iBAAP;;sEAAO,gBAAc,CAAA;UAH1B;WAAW;MACV,YAAY;KACb;;;",
-  "names": []
-}

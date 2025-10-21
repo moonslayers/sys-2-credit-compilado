@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/bar-chart/title-bar/title-bar.component.css"],
-  "sourcesContent": ["h2 {\n  font-size: 1.25rem;\n  margin-bottom: 1rem;\n  color: #333;\n}\n"],
-  "mappings": ";AAAA;AACE,aAAW;AACX,iBAAe;AACf,SAAO;AACT;",
-  "names": []
-}

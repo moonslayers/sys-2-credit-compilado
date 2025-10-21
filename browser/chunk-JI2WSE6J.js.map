@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/informes/informes.component.ts", "src/app/main/informes/informes.component.html"],
-  "sourcesContent": ["import { Component } from '@angular/core';\nimport { RouterOutlet } from '@angular/router';\n\n@Component({\n    selector: 'app-informes',\n    imports: [\n        RouterOutlet,\n    ],\n    templateUrl: './informes.component.html',\n    styleUrl: './informes.component.css'\n})\nexport class InformesComponent {\n\n}\n", "<router-outlet></router-outlet>\n"],
-  "mappings": ";;;;;;;;;;;;AAWM,IAAO,qBAAP,MAAO,mBAAiB;;;mCAAjB,oBAAiB;AAAA;mFAAjB,oBAAiB,WAAA,CAAA,CAAA,cAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,2BAAA,IAAA,KAAA;AAAA,MAAA,KAAA,GAAA;ACX9B,IAAA,oBAAA,GAAA,eAAA;;kBDMQ,YAAY,GAAA,eAAA,EAAA,CAAA;AAKd,IAAO,oBAAP;;sEAAO,mBAAiB,CAAA;UAR7B;uBACa,gBAAc,SACf;MACL;OACH,UAAA,oCAAA,CAAA;;;;6EAIQ,mBAAiB,EAAA,WAAA,qBAAA,UAAA,+CAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["angular:styles/component:css;d9464cb86cfea02e70ba2da0dac070fb9e4744b91f85ad6ab05212432f8d80bb;/home/junior/Projects/s2c/sys-2-credit-frontend/src/app/shared/statistics/time-chart/time-chart.component.ts"],
-  "sourcesContent": ["\n    .chart-container {\n      position: relative;\n      width: 100%;\n      height: 100%;\n    }\n    canvas {\n      width: 100%;\n      height: 100%;\n    }\n  "],
-  "mappings": ";AACI,CAAC;AACC,YAAU;AACV,SAAO;AACP,UAAQ;AACV;AACA;AACE,SAAO;AACP,UAAQ;AACV;",
-  "names": []
-}

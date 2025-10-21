@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pagos/pagos-facturacion/factura-masiva-modal/factura-masiva-modal.component.css"],
-  "sourcesContent": [".text-chico {\n  font-size: 10px;\n}\n"],
-  "mappings": ";AAAA,CAAC;AACC,aAAW;AACb;",
-  "names": []
-}

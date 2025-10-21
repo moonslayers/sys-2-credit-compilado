@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/estado-cuenta/resumen-estado-cuenta/resumen-estado-cuenta.component.css"],
-  "sourcesContent": [".image-placeholder{\n    height: 10rem;\n}"],
-  "mappings": ";AAAA,CAAC;AACG,UAAQ;AACZ;",
-  "names": []
-}

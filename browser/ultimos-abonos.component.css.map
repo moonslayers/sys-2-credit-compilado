@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/clientes/main/dashboard-clientes/ultimos-abonos/ultimos-abonos.component.css"],
-  "sourcesContent": [".grid-row {\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  position: relative;\n  z-index: 1;\n}\n\n.grid-row:hover {\n  background-color: #fff;\n  transform: translateY(-4px);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12),\n              0 4px 8px rgba(0, 0, 0, 0.08);\n  z-index: 2;\n}\n\n.border-bottom-hover{\n  border-bottom: 1px solid #e9ecef;\n}\n"],
-  "mappings": ";AAAA,CAAC;AACC,cAAY,IAAI,KAAK,aAAa,IAAI,EAAE,GAAG,EAAE,IAAI,EAAE;AACnD,YAAU;AACV,WAAS;AACX;AAEA,CANC,QAMQ;AACP,oBAAkB;AAClB,aAAW,WAAW;AACtB,cAAY,EAAE,IAAI,KAAK,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,KAAK,EAC9B,EAAE,IAAI,IAAI,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AACpC,WAAS;AACX;AAEA,CAAC;AACC,iBAAe,IAAI,MAAM;AAC3B;",
-  "names": []
-}

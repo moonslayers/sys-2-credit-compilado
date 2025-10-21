@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/juridico/juridico-comentarios/juridico-comentarios.component.css"],
-  "sourcesContent": [".table-responsive{\n    max-height: 32rem;\n}"],
-  "mappings": ";AAAA,CAAC;AACG,cAAY;AAChB;",
-  "names": []
-}

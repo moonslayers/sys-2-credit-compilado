@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/creditos/creditos.simple.filters.ts"],
-  "sourcesContent": ["import { FilteredSearch } from \"../../shared/tabla/tabla.component\";\n\nexport const CREDITOS_FILTERS: FilteredSearch = [\n    {\n        key:'estado',\n        label: 'Estado:',\n        options:['ACTIVO','RECHAZADO','FINALIZADO'],\n        inputGroup: true,\n    },\n    {\n        label: 'Sucursal:',\n        apiUrl: 'api/sucursales',\n        keyList: 'id',\n        keyDetalle: 'nombre',\n        key: 'sucursal_id',\n        placeholder: 'Ingresa una sucursal...',\n        inputGroup: true,\n    },\n]"],
-  "mappings": ";AAEO,IAAM,mBAAmC;EAC5C;IACI,KAAI;IACJ,OAAO;IACP,SAAQ,CAAC,UAAS,aAAY,YAAY;IAC1C,YAAY;;EAEhB;IACI,OAAO;IACP,QAAQ;IACR,SAAS;IACT,YAAY;IACZ,KAAK;IACL,aAAa;IACb,YAAY;;;",
-  "names": []
-}

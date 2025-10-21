@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/data-view-section/data-view.component.css"],
-  "sourcesContent": [".list{\n    max-height: 30rem;\n    overflow-y: auto;\n}\n.hover-container{\n    position: relative;\n    transition: all 0.3s ease-in-out; /* Suavidad al pasar hover */\n}\n\n/* Contenido interno */\n.hover-content {\n    width: 100%; /* Comienza colapsado */\n    height: 0; /* Ocupa toda la altura del contenedor */\n    overflow-y: auto;\n    transition: all 0.3s ease-in-out; /* Animaci\u00F3n suave */\n  }\n  \n  /* Cuando el contenedor es hover */\n  .hover-container:hover .hover-content {\n    height: 15rem; /* Se expande hasta 20rem */\n    max-height: 80%; /* O hasta el 100% del ancho del contenedor padre */\n  }\n.click-no-expanded{\n  width: 100%; /* Comienza colapsado */\n  height: 0; /* Ocupa toda la altura del contenedor */\n  overflow-y: auto;\n  transition: all 0.3s ease-in-out; /* Animaci\u00F3n suave */\n}\n\n.click-expanded{\n  height: 15rem;\n  max-height: 80%;\n  transition: all 0.3s ease-in-out; /* Animaci\u00F3n suave */\n}"],
-  "mappings": ";AAAA,CAAC;AACG,cAAY;AACZ,cAAY;AAChB;AACA,CAAC;AACG,YAAU;AACV,cAAY,IAAI,KAAK;AACzB;AAGA,CAAC;AACG,SAAO;AACP,UAAQ;AACR,cAAY;AACZ,cAAY,IAAI,KAAK;AACvB;AAGA,CAdD,eAciB,OAAO,CARxB;AASG,UAAQ;AACR,cAAY;AACd;AACF,CAAC;AACC,SAAO;AACP,UAAQ;AACR,cAAY;AACZ,cAAY,IAAI,KAAK;AACvB;AAEA,CAAC;AACC,UAAQ;AACR,cAAY;AACZ,cAAY,IAAI,KAAK;AACvB;",
-  "names": []
-}

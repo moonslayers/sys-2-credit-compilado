@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/informes/informe-tabla-dinamica-local/cross-tab-view-config/components/graphs-config/graphs-config.component.css"],
-  "sourcesContent": ["/* Estilos para las cards de gr\u00E1ficas */\n.graph-card {\n  transition: all 0.2s ease-in-out;\n  cursor: pointer;\n}\n\n.graph-card:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;\n}\n\n/* Estilos para el borde punteado */\n.border-dashed {\n  border: 2px dashed #dee2e6;\n  border-radius: 0.375rem;\n}\n\n/* Estilos para badges */\n.badge {\n  font-size: 0.7rem;\n}\n\n.bg-opacity-10 {\n  opacity: 0.1;\n}\n\n/* Estilos para el formulario de configuraci\u00F3n */\n.form-select,\n.form-control {\n  font-size: 0.875rem;\n}"],
-  "mappings": ";AACA,CAAC;AACC,cAAY,IAAI,KAAK;AACrB,UAAQ;AACV;AAEA,CALC,UAKU;AACT,aAAW,WAAW;AACtB,cAAY,EAAE,IAAI,IAAI,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AACtC;AAGA,CAAC;AACC,UAAQ,IAAI,OAAO;AACnB,iBAAe;AACjB;AAGA,CAAC;AACC,aAAW;AACb;AAEA,CAAC;AACC,WAAS;AACX;AAGA,CAAC;AACD,CAAC;AACC,aAAW;AACb;",
-  "names": []
-}

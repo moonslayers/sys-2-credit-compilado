@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/controllers/credito.producto.financiero.documento.service.ts"],
-  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { CreditoProductoFinancieroDocumento } from '../models/creditos.productos.financieros.documento';\nimport { firstValueFrom } from 'rxjs';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class CreditoProductoFinancieroDocumentoService extends SuperService<CreditoProductoFinancieroDocumento> {\n  protected override model: string =\"creditos_documentos\";\n  protected override columns: (keyof CreditoProductoFinancieroDocumento)[] = [\n    \"credito_id\",\n    \"productos_financieros_documento_id\",\n    \"productos_financieros_documentos\",\n    \"url\",\n    \"usuario_id\",\n  ];\n\n  constructor(injector: Injector){\n    super(injector)\n  }\n\n  verificarDocumento(id:number){\n    const url='api/access/credito/documento/aprobar'\n    return firstValueFrom(this.api.post(url,{id}))\n  }\n}\n"],
-  "mappings": ";;;;;;;;;;;;;AAQM,IAAO,6CAAP,MAAO,mDAAkD,aAAgD;EAU7G,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAVG,SAAA,QAAe;AACf,SAAA,UAAwD;MACzE;MACA;MACA;MACA;MACA;;EAKF;EAEA,mBAAmB,IAAS;AAC1B,UAAM,MAAI;AACV,WAAO,eAAe,KAAK,IAAI,KAAK,KAAI,EAAC,GAAE,CAAC,CAAC;EAC/C;;;mCAjBW,4CAAyC,mBAAA,QAAA,CAAA;AAAA;8GAAzC,4CAAyC,SAAzC,2CAAyC,WAAA,YAFxC,MAAK,CAAA;AAEb,IAAO,4CAAP;;sEAAO,2CAAyC,CAAA;UAHrD;WAAW;MACV,YAAY;KACb;;;",
-  "names": []
-}

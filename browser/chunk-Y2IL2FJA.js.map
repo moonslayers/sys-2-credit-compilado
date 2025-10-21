@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/controllers/proceso.judicial.service.ts"],
-  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { ProcesoJudicial } from '../models/proceso.judicial';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class ProcesoJudicialService extends SuperService<ProcesoJudicial> {\n  protected override model: string =\"procesos_judiciales\";\n  protected override columns: (keyof ProcesoJudicial)[] = [\n    'nombre',\n    'usuario_id',\n  ];\n\n  constructor(injector: Injector){\n    super(injector)\n  }\n}"],
-  "mappings": ";;;;;;;;;;;;AAOM,IAAO,0BAAP,MAAO,gCAA+B,aAA6B;EAOvE,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAPG,SAAA,QAAe;AACf,SAAA,UAAqC;MACtD;MACA;;EAKF;;;mCATW,yBAAsB,mBAAA,QAAA,CAAA;AAAA;2FAAtB,yBAAsB,SAAtB,wBAAsB,WAAA,YAFrB,MAAK,CAAA;AAEb,IAAO,yBAAP;;sEAAO,wBAAsB,CAAA;UAHlC;WAAW;MACV,YAAY;KACb;;;",
-  "names": []
-}

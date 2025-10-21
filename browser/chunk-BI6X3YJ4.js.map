@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/controllers/credito.abono.service.ts"],
-  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { CreditoAbono } from '../models/credito.abono';\n\n@Injectable({\n  providedIn: 'any',\n})\nexport class CreditoAbonoService extends SuperService<CreditoAbono> {\n  protected override model: string = 'creditos_abonos';\n  protected override columns: (keyof CreditoAbono)[] = [\n    'id',\n    'credito_id',\n    'fecha',\n    'monto',\n    'comentarios',\n    'documento_url',\n    'usuario_id',\n    'pagos_cargas_masiva_id',\n    'concepto',\n    'created_at',\n    'deleted_at',\n    'referencia_pago',\n  ];\n\n  constructor(injector: Injector) {\n    super(injector);\n  }\n}\n\n"],
-  "mappings": ";;;;;;;;;;;;AAOM,IAAO,uBAAP,MAAO,6BAA4B,aAA0B;EAiBjE,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAjBG,SAAA,QAAgB;AAChB,SAAA,UAAkC;MACnD;MACA;MACA;MACA;MACA;MACA;MACA;MACA;MACA;MACA;MACA;MACA;;EAKF;;;mCAnBW,sBAAmB,mBAAA,QAAA,CAAA;AAAA;wFAAnB,sBAAmB,SAAnB,qBAAmB,WAAA,YAFlB,MAAK,CAAA;AAEb,IAAO,sBAAP;;sEAAO,qBAAmB,CAAA;UAH/B;WAAW;MACV,YAAY;KACb;;;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/main.component.ts", "src/app/main/main.component.html"],
-  "sourcesContent": ["import { Component } from '@angular/core';\nimport { SidebarOffcanvasComponent } from '../shared/sidebar-offcanvas/sidebar-offcanvas.component';\nimport { RouterOutlet } from '@angular/router';\n\n@Component({\n    selector: 'app-main',\n    imports: [\n        SidebarOffcanvasComponent,\n        RouterOutlet,\n    ],\n    templateUrl: './main.component.html',\n    styleUrl: './main.component.css'\n})\nexport class MainComponent {\n\n}\n", "<app-sidebar-offcanvas>\n    <router-outlet></router-outlet>\n</app-sidebar-offcanvas>"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAaM,IAAO,iBAAP,MAAO,eAAa;;;mCAAb,gBAAa;AAAA;+EAAb,gBAAa,WAAA,CAAA,CAAA,UAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,uBAAA,IAAA,KAAA;AAAA,MAAA,KAAA,GAAA;ACb1B,IAAA,yBAAA,GAAA,uBAAA;AACI,IAAA,oBAAA,GAAA,eAAA;AACJ,IAAA,uBAAA;;;EDKQ;EACA;AAAY,GAAA,eAAA,EAAA,CAAA;AAKd,IAAO,gBAAP;;sEAAO,eAAa,CAAA;UATzB;uBACa,YAAU,SACX;MACL;MACA;OACH,UAAA,yFAAA,CAAA;;;;6EAIQ,eAAa,EAAA,WAAA,iBAAA,UAAA,kCAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

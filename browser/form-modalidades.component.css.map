@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/apoyos/form-apoyos/form-modalidades/form-modalidades.component.css"],
-  "sourcesContent": [".main{\n    min-height: 30rem;\n}"],
-  "mappings": ";AAAA,CAAC;AACG,cAAY;AAChB;",
-  "names": []
-}

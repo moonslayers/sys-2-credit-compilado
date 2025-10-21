@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/creditos/comprobaciones/form/form.component.css"],
-  "sourcesContent": ["/* Personalizaci\u00F3n adicional */\n.card {\n    border-radius: 0.5rem;\n    border: none;\n  }\n  \n  .card-header {\n    border-radius: 0.5rem 0.5rem 0 0 !important;\n  }\n  \n  .form-label {\n    color: #495057;\n  }\n  \n  .form-control:focus {\n    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);\n    border-color: #86b7fe;\n  }\n  \n  /* Estilo para el input de archivo */\n  .form-control[type=\"file\"] {\n    padding: 0.375rem;\n  }\n  \n  /* Responsive */\n  @media (max-width: 576px) {\n    .d-flex {\n      flex-direction: column;\n      gap: 0.5rem !important;\n    }\n    \n    .btn {\n      width: 100%;\n    }\n  }"],
-  "mappings": ";AACA,CAAC;AACG,iBAAe;AACf,UAAQ;AACV;AAEA,CAAC;AACC,iBAAe,OAAO,OAAO,EAAE;AACjC;AAEA,CAAC;AACC,SAAO;AACT;AAEA,CAAC,YAAY;AACX,cAAY,EAAE,EAAE,EAAE,QAAQ,KAAK,EAAE,EAAE,GAAG,EAAE,GAAG,EAAE;AAC7C,gBAAc;AAChB;AAGA,CANC,YAMY,CAAC;AACZ,WAAS;AACX;AAGA,OAAO,CAAC,SAAS,EAAE;AACjB,GAAC;AACC,oBAAgB;AAChB,SAAK;AACP;AAEA,GAAC;AACC,WAAO;AACT;AACF;",
-  "names": []
-}

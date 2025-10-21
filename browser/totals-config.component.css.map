@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/informes/informe-tabla-dinamica-local/cross-tab-view-config/components/totals-config/totals-config.component.css"],
-  "sourcesContent": ["/* Estilos para la configuraci\u00F3n de totales */\n.totals-config {\n  /* Estilos espec\u00EDficos si son necesarios */\n}\n\n/* Estilos para formularios de totales */\n.form-check {\n  margin-bottom: 0.5rem;\n}\n\n.form-check-input {\n  cursor: pointer;\n}\n\n.form-check-label {\n  cursor: pointer;\n  user-select: none;\n}\n\n/* Estilo para el contenedor principal */\n.bg-light {\n  background-color: #f8f9fa !important;\n}\n\n.card-body {\n  padding: 1rem;\n}"],
-  "mappings": ";AACA,CAAC;AAED;AAGA,CAAC;AACC,iBAAe;AACjB;AAEA,CAAC;AACC,UAAQ;AACV;AAEA,CAAC;AACC,UAAQ;AACR,uBAAa;AAAb,eAAa;AACf;AAGA,CAAC;AACC,oBAAkB;AACpB;AAEA,CAAC;AACC,WAAS;AACX;",
-  "names": []
-}

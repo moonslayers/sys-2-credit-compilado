@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/controllers/modalidad.service.ts"],
-  "sourcesContent": ["import { Injectable, Injector } from '@angular/core';\nimport { SuperService } from './super.service';\nimport { Modalidad } from '../models/modalidad.model';\n\n@Injectable({\n  providedIn: 'any'\n})\nexport class ModalidadService extends SuperService<Modalidad> {\n  protected override model: string =\"modalidades\";\n  protected override columns: (keyof Modalidad)[] = [\n    'nombre',\n    'usuario_id'\n  ];\n\n  constructor(injector: Injector){\n    super(injector)\n  }\n}"],
-  "mappings": ";;;;;;;;;;;;AAOM,IAAO,oBAAP,MAAO,0BAAyB,aAAuB;EAO3D,YAAY,UAAkB;AAC5B,UAAM,QAAQ;AAPG,SAAA,QAAe;AACf,SAAA,UAA+B;MAChD;MACA;;EAKF;;;mCATW,mBAAgB,mBAAA,QAAA,CAAA;AAAA;qFAAhB,mBAAgB,SAAhB,kBAAgB,WAAA,YAFf,MAAK,CAAA;AAEb,IAAO,mBAAP;;sEAAO,kBAAgB,CAAA;UAH5B;WAAW;MACV,YAAY;KACb;;;",
-  "names": []
-}
