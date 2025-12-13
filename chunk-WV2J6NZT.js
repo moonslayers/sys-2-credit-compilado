@@ -1,0 +1,1 @@
+import{x as r}from"./chunk-XSLCZXVA.js";import{Cb as i,db as o}from"./chunk-NAMRZEEV.js";var m=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-atencion-ciudadana"]],decls:1,vars:0,template:function(n,c){n&1&&i(0,"router-outlet")},dependencies:[r],encapsulation:2});let t=e;return t})();export{m as a};
