@@ -1,0 +1,1 @@
+import{b as c}from"./chunk-ERWLEGDW.js";import{$ as r,da as i,ma as n}from"./chunk-NAMRZEEV.js";var p=(()=>{let t=class t extends c{constructor(o){super(o),this.model="ciudades",this.columns=["nombre","tipo","estado_id"]}};t.\u0275fac=function(s){return new(s||t)(i(n))},t.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"any"});let e=t;return e})();export{p as a};
