@@ -1,0 +1,1 @@
+import{$ as e}from"./chunk-NAMRZEEV.js";var f=(()=>{let t=class t{isFormDisabled(a){return a?a.formalizado_fecha!==null:!1}};t.\u0275fac=function(n){return new(n||t)},t.\u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"});let r=t;return r})();export{f as a};
