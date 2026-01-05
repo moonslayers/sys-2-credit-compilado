@@ -1,0 +1,1 @@
+import{X as e}from"./chunk-EBTSADM6.js";var i=(()=>{class t{isFormDisabled(r){return r?r.formalizado_fecha!==null:!1}static{this.\u0275fac=function(a){return new(a||t)}}static{this.\u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{i as a};

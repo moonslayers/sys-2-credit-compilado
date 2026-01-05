@@ -1,1 +1,0 @@
-import{x as r}from"./chunk-XSLCZXVA.js";import{Cb as i,db as n}from"./chunk-NAMRZEEV.js";var m=(()=>{let e=class e{};e.\u0275fac=function(o){return new(o||e)},e.\u0275cmp=n({type:e,selectors:[["app-creditos"]],decls:1,vars:0,template:function(o,c){o&1&&i(0,"router-outlet")},dependencies:[r],encapsulation:2});let t=e;return t})();export{m as CreditosComponent};

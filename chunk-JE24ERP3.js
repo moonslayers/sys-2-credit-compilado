@@ -1,0 +1,1 @@
+import{b as c}from"./chunk-C3VMLQJL.js";import{$ as o,X as r,ia as i}from"./chunk-EBTSADM6.js";var f=(()=>{class t extends c{constructor(e){super(e),this.model="datos_fiscales"}static{this.\u0275fac=function(n){return new(n||t)(o(i))}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{f as a};
