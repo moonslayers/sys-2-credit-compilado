@@ -1,0 +1,1 @@
+import{b as c}from"./chunk-C6JC5N5O.js";import{$ as i,X as r,ia as o}from"./chunk-EBTSADM6.js";var p=(()=>{class t extends c{constructor(e){super(e),this.model="tipo_discapacidad",this.columns=["nombre"]}static{this.\u0275fac=function(n){return new(n||t)(i(o))}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"any"})}}return t})();export{p as a};
