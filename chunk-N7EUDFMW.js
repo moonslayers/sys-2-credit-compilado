@@ -1,1 +1,0 @@
-import{b as c}from"./chunk-3RPFXEZK.js";import{$ as i,X as r,ia as o}from"./chunk-EBTSADM6.js";var u=(()=>{class t extends c{constructor(e){super(e),this.model="procesos_judiciales",this.columns=["nombre","usuario_id"]}static{this.\u0275fac=function(n){return new(n||t)(i(o))}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"any"})}}return t})();export{u as a};
