@@ -1,1 +1,0 @@
-import{b as n}from"./chunk-XSXEVNDW.js";import{$ as o,X as r,ia as i}from"./chunk-EBTSADM6.js";var m=(()=>{class t extends n{constructor(e){super(e),this.model="parentesco",this.columns=["nombre"]}static{this.\u0275fac=function(c){return new(c||t)(o(i))}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"any"})}}return t})();export{m as a};
