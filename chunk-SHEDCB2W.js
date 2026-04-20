@@ -1,1 +1,0 @@
-import{x as i}from"./chunk-SUR3OOHR.js";import{Eb as o,hb as n}from"./chunk-5H7E6MI7.js";var d=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=n({type:e,selectors:[["app-atencion-ciudadana"]],decls:1,vars:0,template:function(t,c){t&1&&o(0,"router-outlet")},dependencies:[i],encapsulation:2})}}return e})();export{d as a};
