@@ -1,0 +1,1 @@
+import{i as t}from"./chunk-LGYLXUNG.js";function r(n,o,s){return t(this,null,function*(){let i=(yield n.all({conditionals:[{key:"solicitud_id",value:o,operator:"="},{key:"deleted_at",value:null,operator:"IS NULL"}]})).filter(e=>e.seccion===s&&e.estado==="pendiente");for(let e of i)yield n.update(e.id,{estado:"atendida"})})}export{r as a};
