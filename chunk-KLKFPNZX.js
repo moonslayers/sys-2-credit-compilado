@@ -1,1 +1,0 @@
-import{x as i}from"./chunk-2V65KVSV.js";import{Hb as n,jb as o}from"./chunk-OZL4TUSC.js";var m=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=o({type:e,selectors:[["app-creditos"]],decls:1,vars:0,template:function(t,p){t&1&&n(0,"router-outlet")},dependencies:[i],encapsulation:2})}}return e})();export{m as CreditosComponent};
