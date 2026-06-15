@@ -1,0 +1,1 @@
+var e=[{key:"estado",label:"Estado:",options:["ACTIVO","RECHAZADO","FINALIZADO"],inputGroup:true},{label:"Sucursal:",apiUrl:"api/sucursales",keyList:"id",keyDetalle:"nombre",key:"sucursal_id",placeholder:"Ingresa una sucursal...",inputGroup:true}];export{e};
