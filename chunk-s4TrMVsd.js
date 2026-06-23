@@ -1,1 +1,0 @@
-function o$1(e){return e.length===0?[]:e.reduce((t,h)=>(h.forEach((n,r)=>{let u=String(typeof n=="object"&&n!==null?n.v??"":n??"").length;u>(t[r]??0)&&(t[r]=u);}),t),[]).map(t=>({wch:Math.min(Math.max((t??0)+2,10),50)}))}export{o$1 as o};
