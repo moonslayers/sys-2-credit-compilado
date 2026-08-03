@@ -1,1 +1,0 @@
-import {U as UI,a as Ui,d as dp}from'./main-YTQ3C6OP.js';var a=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)};}static{this.\u0275cmp=UI({type:e,selectors:[["app-creditos"]],decls:1,vars:0,template:function(t,c){t&1&&dp(0,"router-outlet");},dependencies:[Ui],encapsulation:2,changeDetection:1});}}return e})();export{a as CreditosComponent};
