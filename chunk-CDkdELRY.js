@@ -1,1 +1,0 @@
-import {U as UI,a as Ui,d as dp}from'./main-53YC4POS.js';var s=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)};}static{this.\u0275cmp=UI({type:e,selectors:[["app-informes"]],decls:1,vars:0,template:function(t,m){t&1&&dp(0,"router-outlet");},dependencies:[Ui],encapsulation:2,changeDetection:1});}}return e})();export{s as InformesComponent};
