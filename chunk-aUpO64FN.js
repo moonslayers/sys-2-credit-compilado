@@ -1,0 +1,1 @@
+import {G as GI,U as Ui,y as yp}from'./main-5YY7MAAX.js';var s=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)};}static{this.\u0275cmp=GI({type:e,selectors:[["app-informes"]],decls:1,vars:0,template:function(t,m){t&1&&yp(0,"router-outlet");},dependencies:[Ui],encapsulation:2,changeDetection:1});}}return e})();export{s as InformesComponent};

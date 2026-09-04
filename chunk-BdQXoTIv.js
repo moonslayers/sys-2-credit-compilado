@@ -1,1 +1,0 @@
-import {v}from'./chunk-CtNVGihy.js';import {a7 as Sm,a8 as re}from'./main-TVA5V6SE.js';var m=(()=>{class t extends v{constructor(){super(...arguments),this.model="etnias",this.columns=["nombre"];}static{this.\u0275fac=(()=>{let e;return function(n){return (e||(e=Sm(t)))(n||t)}})();}static{this.\u0275prov=re({token:t,factory:t.\u0275fac,providedIn:"any"});}}return t})();export{m};
