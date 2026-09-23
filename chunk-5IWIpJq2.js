@@ -1,1 +1,0 @@
-import'./main-KIKOI634.js';var n=[{path:"",loadComponent:()=>import('./chunk-COZ6165P.js').then(o=>o.ComprobacionesCoordinadorComponent)},{path:"detalle/:id",loadComponent:()=>import('./chunk-DsSvrdld.js').then(o=>o.ComprobacionCoordinadorDetalleComponent)}];export{n as comprobacionesCoordinadorRoutes};

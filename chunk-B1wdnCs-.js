@@ -1,1 +1,0 @@
-import {v}from'./chunk-BKEjJVcW.js';import {a7 as Mm,a8 as oe}from'./main-KIKOI634.js';var m=(()=>{class t extends v{constructor(){super(...arguments),this.model="etnias",this.columns=["nombre"];}static{this.\u0275fac=(()=>{let e;return function(n){return (e||(e=Mm(t)))(n||t)}})();}static{this.\u0275prov=oe({token:t,factory:t.\u0275fac,providedIn:"any"});}}return t})();export{m};
