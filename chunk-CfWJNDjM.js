@@ -1,1 +1,0 @@
-import {U as UI,a as Ui,m as mp}from'./main-2JUH3N7O.js';var a=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)};}static{this.\u0275cmp=UI({type:e,selectors:[["app-creditos"]],decls:1,vars:0,template:function(t,c){t&1&&mp(0,"router-outlet");},dependencies:[Ui],encapsulation:2,changeDetection:1});}}return e})();export{a as CreditosComponent};
