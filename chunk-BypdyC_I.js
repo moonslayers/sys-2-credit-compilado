@@ -1,1 +1,0 @@
-import'./main-NAKA344B.js';var n=[{path:"",loadComponent:()=>import('./chunk-Br4FyIMT.js').then(o=>o.ComprobacionesCoordinadorComponent)},{path:"detalle/:id",loadComponent:()=>import('./chunk-D1zFaKBC.js').then(o=>o.ComprobacionCoordinadorDetalleComponent)}];export{n as comprobacionesCoordinadorRoutes};
