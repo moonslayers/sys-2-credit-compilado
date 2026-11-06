@@ -1,0 +1,1 @@
+import {z as zI,U as Ui,v as vp}from'./main-Q24RQBZR.js';var a=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)};}static{this.\u0275cmp=zI({type:e,selectors:[["app-creditos"]],decls:1,vars:0,template:function(t,c){t&1&&vp(0,"router-outlet");},dependencies:[Ui],encapsulation:2,changeDetection:1});}}return e})();export{a as CreditosComponent};
