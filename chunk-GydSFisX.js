@@ -1,0 +1,1 @@
+import'./main-CWQJZLVR.js';var n=[{path:"",loadComponent:()=>import('./chunk-OjhdBuMD.js').then(o=>o.ComprobacionesCiudadanoComponent)},{path:"nueva",loadComponent:()=>import('./chunk-C0zU9hAK.js').then(o=>o.ComprobacionUploadComponent)},{path:"detalle/:id",loadComponent:()=>import('./chunk-BSNLr01J.js').then(o=>o.ComprobacionDetalleComponent)}];export{n as comprobacionesRoutes};
