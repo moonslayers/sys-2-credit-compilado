@@ -1,0 +1,1 @@
+import'./main-MP5243IT.js';var n=[{path:"",loadComponent:()=>import('./chunk-DulONVHQ.js').then(o=>o.ComprobacionesCoordinadorComponent)},{path:"detalle/:id",loadComponent:()=>import('./chunk-GMUbf-DY.js').then(o=>o.ComprobacionCoordinadorDetalleComponent)}];export{n as comprobacionesCoordinadorRoutes};
