@@ -1,0 +1,1 @@
+var o=new Set(["SESION ASIGNADA","LIBERADO","CONCLUIDO","INCONCLUSO","CONCLUIDO NO UTILIZADO"]);function r(e){return e?e.credito?.dictaminado_fecha?true:(e.apoyo?.solicitudes_apoyos_modalidades??[]).some(a=>{let t=String(a?.estado??"").trim().toUpperCase();return o.has(t)}):false}export{r};
