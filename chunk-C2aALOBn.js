@@ -1,1 +1,0 @@
-import {c as cE,U as Ui,S as Sp}from'./main-KUUAGKXM.js';var a=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)};}static{this.\u0275cmp=cE({type:e,selectors:[["app-creditos"]],decls:1,vars:0,template:function(t,c){t&1&&Sp(0,"router-outlet");},dependencies:[Ui],encapsulation:2,changeDetection:1});}}return e})();export{a as CreditosComponent};
