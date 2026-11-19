@@ -1,1 +1,0 @@
-import {k}from'./chunk-B-mCDJIC.js';import {a8 as $m,a9 as ie}from'./main-7O42CKAC.js';var m=(()=>{class t extends k{constructor(){super(...arguments),this.model="etnias",this.columns=["nombre"];}static{this.\u0275fac=(()=>{let e;return function(n){return (e||(e=$m(t)))(n||t)}})();}static{this.\u0275prov=ie({token:t,factory:t.\u0275fac,providedIn:"any"});}}return t})();export{m};
