@@ -1,0 +1,1 @@
+import'./main-IECNL4TV.js';var n=[{path:"",loadComponent:()=>import('./chunk-YkoF7-8Z.js').then(o=>o.ComprobacionesCoordinadorComponent)},{path:"detalle/:id",loadComponent:()=>import('./chunk-9ytOnNwW.js').then(o=>o.ComprobacionCoordinadorDetalleComponent)}];export{n as comprobacionesCoordinadorRoutes};
