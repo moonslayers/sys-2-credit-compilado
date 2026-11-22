@@ -1,0 +1,1 @@
+var l={toolbar:[["bold","italic","underline","strike"],[{header:[1,2,3,false]}],[{list:"ordered"},{list:"bullet"}],[{color:[]},{background:[]}],["blockquote","code-block"],["link","image"],["clean"]]};export{l};

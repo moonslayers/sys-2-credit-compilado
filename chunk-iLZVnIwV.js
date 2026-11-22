@@ -1,1 +1,0 @@
-function l(e){return e.replace(/<[^>]*>/g," ").replace(/&nbsp;/gi," ").replace(/&amp;/gi,"&").replace(/\s+/g," ").trim()}var r={toolbar:[["bold","italic","underline","strike"],[{header:[1,2,3,false]}],[{list:"ordered"},{list:"bullet"}],[{color:[]},{background:[]}],["blockquote","code-block"],["link","image"],["clean"]]};export{l,r};
