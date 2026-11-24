@@ -1,0 +1,1 @@
+import {e as eE,U as Ui,b as bp}from'./main-YN6OXWF3.js';var s=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)};}static{this.\u0275cmp=eE({type:e,selectors:[["app-informes"]],decls:1,vars:0,template:function(t,m){t&1&&bp(0,"router-outlet");},dependencies:[Ui],encapsulation:2,changeDetection:1});}}return e})();export{s as InformesComponent};
